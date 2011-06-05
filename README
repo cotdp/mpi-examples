@@ -1,0 +1,17 @@
+A selection of examples of getting started with OpenMPI, please note that all 
+derivative works retain the respective license of their authors.  Everything
+else is covered under an Apache License 2.0
+
+
+Requirements
+============
+
+You will need to install (Fedora);
+	sudo yum install openmpi openmpi-devel openmpi-libs
+	
+
+Building
+========
+
+It should just be as straight-forward as running 'make', if you are on a 32-bit
+system you will need to change the MPICC macro in the Makefile.
